@@ -2,13 +2,10 @@ html {
     background-color: black;
 }
 
-.container {
-    
-}
-
 .carousel {
+    aspect-ratio: 16 / 9;
     max-width: 900px;
-    height: 80vh ;
+    height: 70vh ;
     background-color: salmon;
     position: absolute;
     top: 50%;
@@ -33,7 +30,7 @@ html {
 }
 
 .btn {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .thumbs {
@@ -43,6 +40,7 @@ html {
 }
 
 .thumbs img {
+    aspect-ratio: 16 / 9;
     display: block;
     flex: 1 0 0;
     filter: brightness(.3);

@@ -28,7 +28,7 @@ const listThumbs = document.querySelectorAll(".thumbs img");
 const btnPrev = document.querySelector(".btn-up");
 const btnNext = document.querySelector(".btn-down");
 
-// debugger
+
 // definisco la variabile che rappresenta lo stato attuale del carosello
 // cioè l'indice dell'immagine attiva
 let activeIndex = 0;
